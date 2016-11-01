@@ -1,14 +1,14 @@
 # Docker-Orchestration
 Future project to include: 
-docker engine 
-docker machine 
-docker compose 
-docker registry 
-docker swarm 
-docker visualizer
+- docker engine 
+- docker machine 
+- docker compose 
+- docker registry 
+- docker swarm 
+- docker visualizer
 ++
 service discovery 
-consul 
-etcd 
+-consul 
+-etcd 
 ++
-monitd - for self-recuperating systems
+-monitd - for self-recuperating systems
