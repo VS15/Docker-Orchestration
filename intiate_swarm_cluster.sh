@@ -33,4 +33,4 @@ eval $(docker-machine env node-1)
 echo "Docker Swarm cluster:"
 docker node ls
 
-./create_swarm_network.sh
+./create_swarm_networks.sh
