@@ -1,4 +1,4 @@
-# Docker-Orchestration
+# Docker-Orchestration with Docker Swarm
 Technically the automated setup is cross platform which means it can run on any system, except Windows. 
 The prerequsites for this project are installed Virtual Box and Docker v1.12+
 
