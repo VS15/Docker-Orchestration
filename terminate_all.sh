@@ -1,10 +1,12 @@
 #!/bin/bash
 echo "Removing swarm services:"
-docker service rm service-db proxy elastic solr-search
+docker service rm jenkins rancheros
 echo "Removing swarm networks:"
 docker network rm service-net-1 proxy
 echo "Terminating docker machine VMs:"
 if [`docker-machine ls|grep node |wc -l` -gt 0 ]
    then
-   docker-machine rm -f node-1 node-2 node-3
+   docker-machine rm -f swarm-node-1 swarm-node-2 swarm-node-3
 fi
+echo "Cleaning up local jenkins homedir"
+rm -rf $PWD/docker/jenkins/*

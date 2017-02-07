@@ -1,14 +1,9 @@
 #Deploy Database service 
-docker service create --name service-db --network service-net-1 mongo:3.2.10
-docker service inspect --pretty service-db
-
+#docker service create --name service-db --network service-net-1 mongo:3.2.10
 #Deploy load balancing service
-docker service create --name proxy -p 80:80 -p 443:443 -p 8080:8080 --network proxy -e MODE=swarm vfarcic/docker-flow-proxy
-#Deploy solr search
-docker service create --name solr-search -e DB=service-db --network service-net-1 --network proxy solr:latest 
-docker service insprect --pretty solr-search
+#docker service create --name proxy -p 80:80 -p 443:443 -p 8080:8080 --network proxy -e MODE=swarm vfarcic/docker-flow-proxy
 #Deploy rancherOS server
-docker service create  --name rancheros -p 8080:8080 rancher/server
-#docker service create --name jenkins --network service-net-1 jenkins:latest
-#docker service create --name utility --network go-demo --mode global alpine sleep 1000000000
-
+echo "Deploying RancherOS Server:"
+docker service create  --name rancheros -p 8081:8080 --network service-net-1 --network proxy  rancher/server
+echo "Deploying Jenkins:"
+docker service create --name jenkins -p 8082:8080 -p 50000:50000 --network service-net-1 --network proxy -e JENKINS_OPTS="--prefix=/jenkins" --mount "type=bind,source=$PWD/docker/jenkins,target=/var/jenkins_home" jenkins:latest
