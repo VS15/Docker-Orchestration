@@ -7,3 +7,4 @@ echo "Deploying RancherOS Server:"
 docker service create  --name rancheros -p 8081:8080 --network service-net-1 --network proxy  rancher/server
 echo "Deploying Jenkins:"
 docker service create --name jenkins -p 8082:8080 -p 50000:50000 --network service-net-1 --network proxy -e JENKINS_OPTS="--prefix=/jenkins" --mount "type=bind,source=$PWD/docker/jenkins,target=/var/jenkins_home" jenkins:latest
+./display_summary.sh

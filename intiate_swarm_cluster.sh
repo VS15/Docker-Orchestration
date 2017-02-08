@@ -31,6 +31,6 @@ eval $(docker-machine env swarm-node-1)
 
 #List swar cluster members
 echo "Docker Swarm cluster:"
-docker swarm-node ls
+docker node ls
 
 ./create_swarm_networks.sh

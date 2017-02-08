@@ -14,5 +14,5 @@ echo "These are your running services, listening on both networks:"
 docker service ls
 echo "localhost port for RancherOS: 8081"
 echo "localhost port for Jenkins: 8082/jenkins"
-echo "Admin password for Jenkins:" `cat $PWD/docker/jenkins/secrets/initialAdminPassword`
+echo "Waiting for admin password for Jenkins (10 seconds):" `sleep 10 && cat $PWD/docker/jenkins/secrets/initialAdminPassword`
 echo "************************"
