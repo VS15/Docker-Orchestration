@@ -10,5 +10,5 @@ Prerequisites for running this deployment is Docker Platform v1.12+: https://www
 - Any of the services can be usually scaled and is highly available if one instance dies it will be immediately handled by Docker Swarm
 - Swarm cluster summary will be printed to the terminal once the deployment is complete, including the Jenkins initiation password
 - To access RancherOS server console navigate to this link: http://192.168.99.102:8081/
-- To scale the service you can execute the following command: eval $(docker-machine env swarm-node-1) && docker service scale <service name>=<number of instances> 
+- To scale the service you can execute the following command: eval $(docker-machine env swarm-node-1) && docker service scale service=number of instances
 - To terminate the swarm cluster execute the following: ./terminate_swarm_cluster.sh
