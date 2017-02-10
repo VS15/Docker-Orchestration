@@ -2,6 +2,8 @@
 #docker service create --name service-db --network service-net-1 mongo:3.2.10
 #Deploy load balancing service
 #docker service create --name proxy -p 80:80 -p 443:443 -p 8080:8080 --network proxy -e MODE=swarm vfarcic/docker-flow-proxy
+echi "Create Jenkins Dir:" 
+mkdir -p $PWD/docker/jenkins
 #Deploy rancherOS server
 echo "Deploying RancherOS Server:"
 docker service create  --name rancheros -p 8081:8080 --network service-net-1 --network proxy  rancher/server
