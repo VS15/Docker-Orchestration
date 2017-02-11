@@ -1,4 +1,4 @@
-# Docker-Orchestration with Docker Swarm v 1.13, Jenkins and RancherOS#
+# Automated Orchestration with Docker Swarm v1.13, Jenkins 2.32 and RancherOS server
 ----------------------------------------------------------------------------------------------------------------
 Prerequisites for running this deployment is Docker Platform v1.12+: https://www.docker.com/products/docker
 - The processes is fully automated and deploys the implementation, defined on the architecture schema.
