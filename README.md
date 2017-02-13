@@ -1,7 +1,3 @@
-<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
-
-<div class=WordSection1>
-
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
 style='font-size:14.0pt;font-family:"Times New Roman"'># <b style='mso-bidi-font-weight:
 normal'>Automated Orchestration with <span class=SpellE>Docker</span> Swarm
