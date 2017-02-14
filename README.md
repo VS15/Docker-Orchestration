@@ -10,7 +10,7 @@ style='font-size:16.0pt;font-family:"Times New Roman"'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:
-"Times New Roman"'>-------------------------------------------------------------------------------------------------------------------------<o:p></o:p></span></b></p>
+"Times New Roman"'>--------------------------------------------------------------------------------------------------<o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
 class=GramE><span style='font-size:14.0pt;font-family:"Times New Roman"'>Prerequisites
@@ -53,12 +53,7 @@ meaning that services are technically load-balanced.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:
-"Times New Roman"'>---------------------------------------------------------------------------------------------------------------------------<o:p></o:p></span></b></p>
-
-<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:
-"Times New Roman"'><o:p>&nbsp;</o:p></span></b></p>
-
+"Times New Roman"'>--------------------------------------------------------------------------------------------------<o:p></o:p></span></b></p>
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:17.0pt;font-family:
 "Times New Roman"'>How to section: <o:p></o:p></span></b></p>
