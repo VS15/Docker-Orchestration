@@ -1,3 +1,7 @@
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
 "Times New Roman"'>Automated Orchestration with <span class=SpellE>Docker</span>
@@ -6,7 +10,7 @@ style='font-size:16.0pt;font-family:"Times New Roman"'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:
-"Times New Roman"'>---------------------------------------------------------------------------------------------------------<o:p></o:p></span></b></p>
+"Times New Roman"'>-------------------------------------------------------------------------------------------------------------------------<o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
 class=GramE><span style='font-size:14.0pt;font-family:"Times New Roman"'>Prerequisites
@@ -16,9 +20,8 @@ style='mso-bidi-font-weight:normal'> Platform</b> v1.12+: <a
 href="https://www.docker.com/products/docker">https://www.docker.com/products/docker</a><o:p></o:p></span></p>
 
 <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:14.0pt;font-family:"Times New Roman"'>The main purpose of this
-project is to automatically create a highly available and easy scalable Jenkins
-Build farm. <o:p></o:p></span></b></p>
+style='font-size:16.0pt;font-family:"Times New Roman"'>The main purpose of this
+project is to create a highly available and easy scalable Jenkins Build farm. <o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
 style='font-size:14.0pt;font-family:"Times New Roman"'>1. Once you run <span
@@ -50,79 +53,89 @@ meaning that services are technically load-balanced.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:
-"Times New Roman"'>--------------------------------------------------------------------------------------------------<o:p></o:p></span></b></p>
+"Times New Roman"'>---------------------------------------------------------------------------------------------------------------------------<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:
+"Times New Roman"'><o:p>&nbsp;</o:p></span></b></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:17.0pt;font-family:
 "Times New Roman"'>How to section: <o:p></o:p></span></b></p>
 
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:17.0pt;font-family:
+"Times New Roman"'><o:p>&nbsp;</o:p></span></b></p>
+
 <p class=MsoListParagraphCxSpFirst style='text-align:justify;text-justify:inter-ideograph;
-text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
-style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>á<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:14.0pt;font-family:"Times New Roman"'>To auto-deploy and
-configure the cluster execute the following<span class=GramE>: ./</span>intiate_swarm_cluster.sh<o:p></o:p></span></p>
+text-indent:-.25in;mso-list:l3 level1 lfo4'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;font-family:"Times New Roman"'>To
+auto-deploy and configure the cluster execute the following<span class=GramE>:
+./</span>intiate_swarm_cluster.sh<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-justify:
-inter-ideograph;text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
-style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>á<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:14.0pt;font-family:"Times New Roman"'>You will need to
-configure <span class=SpellE>jenkins</span> on the initial startup and install
-Jenkins Self-Organizing Swarm Plug-in Modules plugin in Plugin manager and
-restart Jenkins (please create <span class=SpellE><b style='mso-bidi-font-weight:
-normal'>admin<span class=GramE>:admin</span></b></span> user). Navigate to this
-link: <b style='mso-bidi-font-weight:normal'>http://192.168.99.102:8082/jenkins/</b><o:p></o:p></span></p>
+inter-ideograph;text-indent:-.25in;mso-list:l3 level1 lfo4'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;font-family:"Times New Roman"'>You
+will need to configure <span class=SpellE>jenkins</span> on the initial startup
+and install Jenkins Self-Organizing Swarm Plug-in Modules plugin in Plugin
+manager and restart Jenkins (please create <span class=SpellE><b
+style='mso-bidi-font-weight:normal'>admin<span class=GramE>:admin</span></b></span>
+user). Navigate to this link: <b style='mso-bidi-font-weight:normal'>http://192.168.99.102:8082/jenkins/</b><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-justify:
-inter-ideograph;text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
-style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>á<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:14.0pt;font-family:"Times New Roman"'>Once Jenkins has been
-configured, please execute the <span class=SpellE>jenkins</span>-slaves script
-to deploy <span class=SpellE>docker</span> container based slaves with
+inter-ideograph;text-indent:-.25in;mso-list:l3 level1 lfo4'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;font-family:"Times New Roman"'>Once
+Jenkins has been configured, please execute the <span class=SpellE>jenkins</span>-slaves
+script to deploy <span class=SpellE>docker</span> container based slaves with
 auto-discovery<span class=GramE>: ./</span>deploy_jenkins_slave_service.sh<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-justify:
-inter-ideograph;text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
-style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>á<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:14.0pt;font-family:"Times New Roman"'>Swarm cluster summary
-will be printed to the terminal once the deployment is complete, including the
-Jenkins initiation password<o:p></o:p></span></p>
+inter-ideograph;text-indent:-.25in;mso-list:l3 level1 lfo4'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;font-family:"Times New Roman"'>Swarm
+cluster summary will be printed to the terminal once the deployment is
+complete, including the Jenkins initiation password<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-justify:
-inter-ideograph;text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
-style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>á<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:14.0pt;font-family:"Times New Roman"'>To access <span
-class=SpellE>RancherOS</span> server console navigate to this link: <b
-style='mso-bidi-font-weight:normal'>http://192.168.99.102:8081/</b><o:p></o:p></span></p>
+inter-ideograph;text-indent:-.25in;mso-list:l3 level1 lfo4'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;font-family:"Times New Roman"'>To
+access <span class=SpellE>RancherOS</span> server console navigate to this
+link: <b style='mso-bidi-font-weight:normal'>http://192.168.99.102:8081/</b><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-justify:
-inter-ideograph;text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
-style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>á<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:14.0pt;font-family:"Times New Roman"'>To scale the service you
-can execute the following command: <span class=SpellE>eval</span> $(<span
-class=SpellE>docker</span>-machine <span class=SpellE>env</span> swarm-node-1)
-&amp;&amp; <span class=SpellE>docker</span> service scale service=number of
-instances<o:p></o:p></span></p>
+inter-ideograph;text-indent:-.25in;mso-list:l3 level1 lfo4'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;font-family:"Times New Roman"'>To
+scale the service you can execute the following command: <span class=SpellE>eval</span>
+$(<span class=SpellE>docker</span>-machine <span class=SpellE>env</span>
+swarm-node-1) &amp;&amp; <span class=SpellE>docker</span> service scale
+service=number of instances<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-align:justify;text-justify:inter-ideograph;
-text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
-style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>á<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:14.0pt;font-family:"Times New Roman"'>To terminate the swarm
-cluster execute the following<span class=GramE>: <b style='mso-bidi-font-weight:
-normal'>./</b></span><b style='mso-bidi-font-weight:normal'>terminate_swarm_cluster.sh<o:p></o:p></b></span></p>
+text-indent:-.25in;mso-list:l3 level1 lfo4'><![if !supportLists]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span></b><![endif]><span style='font-size:14.0pt;font-family:
+"Times New Roman"'>To terminate the swarm cluster execute the following<span
+class=GramE>: <b style='mso-bidi-font-weight:normal'>./</b></span><b
+style='mso-bidi-font-weight:normal'>terminate_swarm_cluster.sh<o:p></o:p></b></span></p>
 
 </div>
 
