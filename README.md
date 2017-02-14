@@ -57,11 +57,6 @@ style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:17.0pt;font-family:
 "Times New Roman"'>How to section: <o:p></o:p></span></b></p>
-
-<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
-style='mso-bidi-font-weight:normal'><span style='font-size:17.0pt;font-family:
-"Times New Roman"'><o:p>&nbsp;</o:p></span></b></p>
-
 <p class=MsoListParagraphCxSpFirst style='text-align:justify;text-justify:inter-ideograph;
 text-indent:-.25in;mso-list:l3 level1 lfo4'><![if !supportLists]><span
 style='font-size:14.0pt;font-family:"Times New Roman";mso-fareast-font-family:
