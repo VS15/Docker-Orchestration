@@ -3,7 +3,7 @@ style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
 "Times New Roman"'>Automated Orchestration with <span class=SpellE>Docker</span>
 Swarm v1.13, Jenkins 2.32 and <span class=SpellE>RancherOS</span> server:</span></b><span
 style='font-size:16.0pt;font-family:"Times New Roman"'><o:p></o:p></span></p>
-![alt tag](https://github.com/VS15/Docker-Orchestration/Architecture-Schema-1.png)
+![alt tag](https://github.com/VS15/Docker-Orchestration/blob/master/Architecture-Schema-1.png)
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:
